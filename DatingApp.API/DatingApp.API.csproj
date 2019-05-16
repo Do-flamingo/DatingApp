@@ -6,9 +6,10 @@
     <Folder Include="wwwroot\"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Update="Microsoft.NETCore.App" Version="2.1.0" />
+    <PackageReference Update="Microsoft.NETCore.App" Version="2.1.0"/>
     <PackageReference Include="Microsoft.AspNetCore.App"/>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.0" PrivateAssets="All"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.0"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1"/>
   </ItemGroup>
 </Project>
